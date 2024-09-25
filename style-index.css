@@ -1,0 +1,115 @@
+/* Estilos generales */
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    background-color: #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px; /* Espacio entre los elementos del menú */
+    align-items: center; /* Alinea verticalmente los enlaces y el ícono */
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #000; /* Color del texto de los enlaces */
+    font-weight: bold; /* Hace que el texto sea más resaltado */
+}
+
+/* Estilos para la imagen del logo */
+.logo {
+    height: 80px; /* Ajusta el tamaño del logo */
+}
+
+.carrito {
+    height: 40px; /* Ajusta el tamaño del ícono del carrito */
+}
+
+
+/* Estilos generales del contenido */
+main div {
+    text-align: center;
+    margin: 0px 0px;
+}
+/* Estilos para el banner */
+
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos para las imágenes del producto */
+main div img {
+    margin: 0 40px;
+}
+main p {
+    margin:  0 80px;
+    padding-bottom: 30px;
+}
+
+.banner {
+    width: 100%;
+    margin: 0 0px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer img {
+    margin: 10px;
+}
+
+footer button {
+    background-color: #dadada;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer h4 {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+}
